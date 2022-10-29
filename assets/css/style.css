@@ -1,0 +1,226 @@
+/*===================================
+    - Template Name: Tinyone | Bootstrap | landing page PSD to HTML
+    - Author: Mst. Monia Bilashi Moni
+    - Version: 
+    - Website: 
+=====================================*/
+
+
+
+
+/* =======================================
+   Start Universal Secletor or common css 
+   ======================================= */
+*{
+    padding: 0;
+    margin: 0;
+}
+ul, ol {
+    list-style: none;
+}
+a, a:hover{
+    text-decoration:none;
+    color: black;
+}
+img{
+    vertical-align: middle;
+}
+:root{
+    --primary:#fcdb00;
+    --secondary:#010101;
+}
+h1, h2, h3,h4,h5,h6,p,a{
+    font-family: 'PT Sans', sans-serif; 
+}
+/* p,a{
+    font-family: 'Open Sans', sans-serif;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+img,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+/*=================================================
+     End Universal Secletor 
+  ================================================== */
+
+  /* Top Header Menu Bar section CSS Start */
+  .top_header{
+    background: var(--primary);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  .navbar{
+    padding: 20px 0; 
+  }
+  .nav-item{
+    padding:0px 16px ;
+  }
+  .nav-item .nav-link {
+    font-weight: 700;
+  }
+  /* Top Header Menu Bar section CSS End */
+
+  /* Hero part CSS Start */
+  .hero_part{
+    background: var(--primary);
+    padding-top: 36px;
+  }
+  .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-indicators{
+    top: 100%;
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: #fff;
+}
+.hero_main{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.carsole_right{
+  width: 50%;
+}
+.carsole_right img{
+    float: right;
+}
+.carsole_left{
+  width: 50%;
+}
+.carsole_left h1{
+    font-size: 50px !important;
+}
+.carsole_left-p{
+    font-size: 20px !important;
+}
+.icon{
+    word-spacing: 20px;
+}
+.icon a i{
+    font-size: 30px;
+}
+/* .carsole_right{
+  position: relative;
+}
+.carsole_right .fingur{
+  position:absolute;
+  top: 200;
+  right: 100;
+} */
+  /* Hero part CSS End */
+
+  /* Tinyone features part CSS Start  */
+  .Tinyone_header{
+    width: 80%;
+    margin: auto;
+  }
+  .Tinyone_header h1{
+    font-size: 55px;
+  }
+  .Tinyone_header_P{
+    font-size: 22px;
+  }
+  .Tinyone_features_main_cont{
+   justify-content: space-between;
+   gap: 20px;
+  }
+  .image{
+    width: 15%;
+  }
+  .image img{
+    width: 70%;
+  }
+  .contant{
+    width: 90%;
+  }
+  /* Tinyone features part CSS End  */
+
+  /* search part CSS Start  */
+  .search{
+    background: var(--secondary);
+  }
+  .search_header{
+    width: 65%;
+    margin: auto;
+  }
+  .search_header h1{
+    color: var(--primary);
+    font-weight: 700;
+  }
+  .search_header p{
+    font-size: 18px;
+    color: #fff;
+  }
+  .search_btn{
+    width: 65%;
+    margin: auto;
+  }
+  .form{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .pass{
+    width: 80%;
+  }
+  .submit{
+    width: 20%;
+  }
+  .search_icon{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  .search_icon a{
+    display: inline-block;
+    padding: 0 15px;
+  }
+  .search_icon a i{
+    background: var(--primary);
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  /* search part CSS End  */
+
+  /* Footer Part CSS Start */
+  .footer_main{
+    display: flex;
+    flex-direction: row;
+    gap: 15x;
+    justify-content: space-between;
+    color: #fff;
+  }
+  .box_one{
+    width: 40%;
+  }
+  .box_two{
+    width: 15%;
+  }
+  /* Footer Part CSS End */
